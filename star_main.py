@@ -1,6 +1,6 @@
 import random
 
-print('Enter name of system: ')
+print('Enter name of star system: ')
 star_sys_name = input()
 num_of_stars = 1
 
