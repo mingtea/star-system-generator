@@ -2,7 +2,9 @@ import random
 from gen_star import gen_star_sys
 
 def main():
-	gen_star_sys()
+	print('Enter name of star system: ')
+	name = input()
+	gen_star_sys(name)
 
 
 if __name__ == '__main__':

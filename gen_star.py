@@ -1,6 +1,6 @@
 import random
 
-def gen_star_sys():
+def gen_star_sys(sys_name:str):
 	mult_star_chance = random.randrange(0, 10)
 	if mult_star_chance < 8:
 		num_of_stars = 1
@@ -9,8 +9,7 @@ def gen_star_sys():
 	else:
 		num_of_stars = 3
 
-	print('Enter name of star system: ')
-	star_sys_name = input()
+	star_sys_name = sys_name
 
 	star_type_int = random.randrange(0, 4)
 	star_color = None
